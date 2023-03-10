@@ -15,10 +15,10 @@ function Nav({ isnothome }) {
         <div className="logo">
           {isnothome === "true" ? <img src={logo} alt="" /> : <></>}
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
+        <nav className="navbar navbar-expand-lg navbar-light">
+          <div className="container-fluid">
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -26,45 +26,45 @@ function Nav({ isnothome }) {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon" />
+              <span className="navbar-toggler-icon" />
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <Link class="nav-link" to="/" style={{ color: "black" }}>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/" style={{ color: "black" }}>
                     Home
                   </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link
-                    class="nav-link"
+                    className="nav-link"
                     to="/Register"
                     style={{ color: "black" }}
                   >
                     Register
                   </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link
-                    class="nav-link"
+                    className="nav-link"
                     to="/Participants"
                     style={{ color: "black" }}
                   >
                     Participants
                   </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link
-                    class="nav-link"
+                    className="nav-link"
                     to="/Schedule"
                     style={{ color: "black" }}
                   >
                     Schedule
                   </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
-                    class="nav-link"
+                    className="nav-link"
                     style={{ color: "black" }}
                     href="http://researchgallery.iitr.ac.in/"
                     target={"_blank"}
@@ -73,9 +73,9 @@ function Nav({ isnothome }) {
                     ResearchGallery
                   </a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link
-                    class="nav-link"
+                    className="nav-link"
                     to="/Contact"
                     style={{ color: "black" }}
                   >

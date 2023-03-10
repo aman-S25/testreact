@@ -1,8 +1,8 @@
-// import React from "react";
-// import Navbar from "./Navbar/Nav";
-// const { GoogleSpreadsheet } = require('google-spreadsheet');
+import React from "react";
+import Navbar from "./Navbar/Nav";
+// import { GoogleSpreadsheet } from "google-spreadsheet";
 
-// function Register() {
+function Register() {
 //   const google = async (e) => {
 //     const btn = document.getElementById("btn");
 //     const btnText = document.getElementById("btnText");
@@ -13,7 +13,8 @@
 //     async function accessSpread() {
 //       const creds = require("./client_secret.json"); // the file saved above
 //       const doc = new GoogleSpreadsheet(
-//         "1nLtTMzSwVhJMqm46UhTA2MdOPcXG2ovavy1JbJnxz6g"
+//         // "1nLtTMzSwVhJMqm46UhTA2MdOPcXG2ovavy1JbJnxz6g"
+//         "1-HbLuFxeGrahlTJBhN5B_5K1q3BRw4koIdsBGPwTiWw"
 //       );
 //       await doc.useServiceAccountAuth(creds);
 
@@ -116,6 +117,6 @@
 //       </div>
 //     </>
 //   );
-// }
+}
 
-// export default Register;
+export default Register;
