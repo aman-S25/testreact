@@ -11,7 +11,7 @@ function Events() {
       <div className="row">
         <div className="events-col">
           <img src={image1} alt="image1" />
-          <h1>Launch of a Virtual Research Gallery</h1>
+          <h1>G20 Brain Storming session in Sustainable Development</h1>
         </div>
         <div className="events-col">
           <img src={image2} alt="image1" />

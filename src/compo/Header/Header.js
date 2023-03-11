@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../Navbar/Nav";
 import Einstein from "../images/Einstein.jpg";
 import pi from "../images/pi.png";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -17,11 +16,6 @@ function Header() {
             Research Day
           </h1>
           <p>13-14 March</p>
-          <div className="links">
-            <Link to="/Register" className="btn">
-              Registration for Talks
-            </Link>
-          </div>
           <div style={{ display: "flex", alignItems: "center" }}>
             <div>
               <img src={Einstein} alt="Albert Einstein" className="einstein" />

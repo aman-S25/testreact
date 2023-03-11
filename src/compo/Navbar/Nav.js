@@ -38,24 +38,6 @@ function Nav({ isnothome }) {
                 <li className="nav-item">
                   <Link
                     className="nav-link"
-                    to="/Register"
-                    style={{ color: "black" }}
-                  >
-                    Register
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    to="/Participants"
-                    style={{ color: "black" }}
-                  >
-                    Participants
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
                     to="/Schedule"
                     style={{ color: "black" }}
                   >
@@ -72,6 +54,15 @@ function Nav({ isnothome }) {
                   >
                     ResearchGallery
                   </a>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    to="/ird2022"
+                    style={{ color: "black" }}
+                  >
+                    IRD2022
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <Link
