@@ -10,7 +10,7 @@ function Scheduler() {
         </div>
         <div className="container-table100" style={{ paddingBottom: "10px" }}>
           <div className="wrap-table100" style={{ overflowY: "unset" }}>
-            <h2>Dignitary Talks</h2>
+            <h2>Lectures (jointly organized with Mehta Family School of Data Science symposium)</h2>
             <div className="table">
               <div className="header-table">
                 <div className="cell">Time</div>

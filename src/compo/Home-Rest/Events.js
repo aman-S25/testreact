@@ -11,7 +11,7 @@ function Events() {
       <div className="row">
         <div className="events-col">
           <img src={image1} alt="image1" />
-          <h1>Symposium jointly organized by Mehta Family School of Data Science</h1>
+          <h1>Jointly organized with Mehta Family School of Data Science Symposium</h1>
         </div>
         <div className="events-col">
           <img src={image2} alt="image1" />
