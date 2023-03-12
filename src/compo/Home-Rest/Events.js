@@ -23,7 +23,7 @@ function Events() {
         </div>
         <div className="events-col">
           <img src={image4} alt="image1" />
-          <h1>Talk by eminent researchers</h1>
+          <h1>Talks by eminent researchers</h1>
         </div>
       </div>
     </section>

@@ -142,7 +142,7 @@ nav {
   margin-top: 8%;
   background-color: orange;
   display: flex;
-  height: 111px;
+  /* height: fit-content; */
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }

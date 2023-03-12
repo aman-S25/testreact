@@ -15,7 +15,7 @@ function Header() {
             <br />
             Research Day
           </h1>
-          <p>13-14 March</p>
+          <p>14th March 2023</p>
           <div style={{ display: "flex", alignItems: "center" }}>
             <div>
               <img src={Einstein} alt="Albert Einstein" className="einstein" />
