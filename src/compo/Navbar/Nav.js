@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/logo_175_yr.png";
-import "./bootstrap.scoped.css";
 
 function hideMenu() {
   const navLinks = document.getElementById("navLinks");
@@ -24,56 +23,41 @@ function Nav({ isnothome }) {
               data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+              aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" />
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
+              
                   <Link className="nav-link" to="/" style={{ color: "black" }}>
                     Home
-                  </Link>
-                </li>
-                <li className="nav-item">
+                  </Link><br/>
+                
                   <Link
                     className="nav-link"
                     to="/Schedule"
-                    style={{ color: "black" }}
-                  >
+                    style={{ color: "black" }}>
                     Schedule
-                  </Link>
-                </li>
-                <li className="nav-item">
+                  </Link><br/>
                   <a
                     className="nav-link"
                     style={{ color: "black" }}
                     href="http://researchgallery.iitr.ac.in/"
                     target={"_blank"}
-                    rel="noopener noreferrer"
-                  >
+                    rel="noopener noreferrer">
                     ResearchGallery
-                  </a>
-                </li>
-                <li className="nav-item">
+                  </a><br/>
                   <Link
                     className="nav-link"
                     to="/ird2022"
-                    style={{ color: "black" }}
-                  >
+                    style={{ color: "black" }}>
                     IRD2022
-                  </Link>
-                </li>
-                <li className="nav-item">
+                  </Link><br/>
                   <Link
                     className="nav-link"
                     to="/Contact"
-                    style={{ color: "black" }}
-                  >
+                    style={{ color: "black" }}>
                     Contact
                   </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </nav>
